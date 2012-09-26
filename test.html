@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop test</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container span12">
+        <h1>Hello World!</h1>
+        <div class="span12">
+            <div class="row">
+                <div class="span2 well head">Approved</div>
+                <div class="span2 well head">Selected</div>
+                <div class="span2 well head">Assigned</div>
+                <div class="span2 well head">Testing</div>
+                <div class="span2 well head">Finished</div>
+            </div>
+            <div class="row">
+                <div id="columns" class="columns span2 well">
+                    <div class="issue span2" draggable="true"><header>A</header></div>
+                    <div class="issue span2" draggable="true"><header>B</header></div>
+                    <div class="issue span2" draggable="true"><header>C</header></div>
+                </div>
+                <div class="columns span2 well"></div>
+                <div class="columns span2 well"></div>
+                <div class="columns span2 well"></div>
+                <div class="columns span2 well"></div>
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
